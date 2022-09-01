@@ -6,6 +6,7 @@ Frei
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |25.08.2022   | 0.0.1   | Heute habe ich Quellen heraus gesucht und an der Projektdokumentation User Stories und Testfälle hinzugefügt.|
+|01.09.2022   | 0.0.2   | Ich habe heute die Projektdokumentation überarbeitet und zusätzlich noch researchiert und stopwatch in der Konsole versucht zu intergrieren und zu benutzen.|
 
 ## 1 Informieren
 
@@ -17,12 +18,12 @@ Eine Konsolenapplikation die von 60 Sekunden im Sekundentakt herunterzählt, jed
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       Muss          |    Funktional | Muss von 60 auf 0 herunterzählen können.|
-| 2    |       Muss          |  Funktional    | Muss im Sekundentakt herunterzählen.|
-| 3    |       Muss          | Funktional     | Soll Text und die einzelnen Zahlen ausgeben. |
-| 4    |       Muss          |  Funktional    | Muss neustarten wenn die Entertaste gedrückt wird.|
-| 5    |       Kann         |  Qualität    | Die Konsole soll zu beginn der Applikation die Farbe zu weiss ändern und die Schrift zu schwarz.|
-| 6    |       Kann       |  Qualität    | Die Konsole soll die Farbe der Zahlen die heruntergezählt werden rot färben. |
+| 1    |       Muss          |    Funktional |Als ein Benutzer möchte ich das Programm starten, damit es von 60 auf 0 herunterzählt. |
+| 2    |       Muss          |  Funktional    | Als ein Benutzer möchte ich, dass das Programm im Sekundetakt herunter zählt.|
+| 3    |       Muss          | Funktional     | Als ein Benutzer möchte ich das während das Programm läuft der Text und die einzelnen Zahlen ausgegeben werden.|
+| 4    |       Muss          |  Funktional    | Als ein Benutzer möchte ich die Entertaste drücken, damit das Programm wieder von vorne beginnt herunter zu zählen.|
+| 5    |       Kann         |  Qualität    |Als ein Benutzer möchte ich das die Konsole die Farbe ändert zu weiss und die Schrift zu schwarz.|
+| 6    |       Kann       |  Qualität    | Als ein Benutzer möchte ich das die zahlen in der Konsole rot hervorgehoben werden.|
 
 
 ### 1.3 Testfälle
@@ -38,35 +39,34 @@ Eine Konsolenapplikation die von 60 Sekunden im Sekundentakt herunterzählt, jed
 | 5.2  |Programm Start| Keine   | Änderung der Schriftfarbe|
 | 6.1  |Zeit läuft    | Keine   | Zahlen werden Rot gefärbt|
 
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 01.09.2022      | Simon Frei| Neues Projekt erstellen, researchieren.       |    2 x 45           |
+| 1.B  | 01.09.2022      | Simon Frei| Code soll von 60-0 herunterzählen.|    2 x 45 |
+| 2.A  | 08.09.2022      | Simon Frei| Code programmieren und anpassen so das es im Sekunden Takt herunter zählt.             |      3 x 45         |
+| 3.A  | 08.09.2022      | Simon Frei| Text soll richtig ausgegeben werden im richtigen Timing.            |  2 x 45             |
+| 3.B  | 15.09.2022      | Simon Frei| Zahlen sollen richtig ausgegeben werden im richtigen Timing.|2 x 45|
+| 4.A  | 15.09.2022      | Simon Frei| Bei druck von Entertaste muss das Programm neustarten/von vorne beginnen.| 2 x 45|
+| 5.A  | 22.09.2022      | Simon Frei| Konsolenfarbe wird auf weiss gestehlt.| 1/9 x 45|
+| 5.B  | 22.09.2022      | Simon Frei| Schriftfarbe wird auf schwarz gestehlt.| 8/9 x 45|
+| 6.A  | 22.09.2022      | Simon Frei| Nur die Zahlen die im Sekundentakt ausgegeben werden sollen rot gefärbt werden.| 1 x 45|
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich werde die Applikation mit Hilfe von der  stopwatch funktion programmieren.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |01.09.2022|Simon Frei|2 x 45      |    1.5 x 45      |
+| 1.B  |01.09.2022|Simon Frei|2 x 45      |    1.5 x 45      |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
