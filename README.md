@@ -8,6 +8,7 @@ Frei
 |25.08.2022   | 0.0.1   | Heute habe ich Quellen heraus gesucht und an der Projektdokumentation User Stories und Testfälle hinzugefügt.|
 |01.09.2022   | 0.0.2   | Ich habe heute die Projektdokumentation überarbeitet und zusätzlich noch researchiert und stopwatch in der Konsole versucht zu intergrieren und zu benutzen.|
 |08.09.2022   | 0.0.3   | Ich habe heute die stopwatch zum funktionieren gebracht, einige qualitative Aspekte programmier wie die Ausgabefarben und gestartet mit dem neustart des Programms.|
+|15.09.2022   | 0.0.4   | Heute habe ich versucht zu programmieren, dass nach jeder Sekunde in rot die aktuelle Zeit, die übrig bleibt auszugeben, dies funktionierte jedoch noch nicht. Ausserdem habe ich programmiert, dass das Programm neustarten kann, wenn der Benutzer es will.  |
 
 ## 1 Informieren
 
@@ -69,10 +70,10 @@ Ich werde die Applikation mit Hilfe von der  stopwatch funktion programmieren.
 | 2.A  |08.09.2022|Simon Frei|3 x 45      |    3 x 45        |
 | 3.A  |||||
 | 3.B  |||||
-| 4.A  |||||
+| 4.A  |15.09.2022|Simon Frei|2 x 45      |    3 x 45|
 | 5.A  |08.09.2022|Simon Frei|1/9 x 45    |    0.5 x 45      |
 | 5.B  |08.09.2022|Simon Frei|8/9 x 45    |    0.5 x 45      |
-| 6.A  |||||
+| 6.A  |15.09.2022|Simon Frei|1 x 45      |    1 x 45        |
 
 ## 5 Kontrollieren
 
